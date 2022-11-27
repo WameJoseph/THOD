@@ -357,7 +357,7 @@ main .section3 .box .sp .image .images {
 main .section3 .box .sp2 {
   /* width: 40%; */
   margin: 0 5%;
-  width: fit-content;
+  width: 460px;
   /* border: solid; */
 }
 
@@ -373,7 +373,7 @@ main .section3 .box .sp2 .b2{
   font-size: 20px;
   /* width: 60%; */
   /* border: solid; */
-  width: 460px;
+  width: 100%;
   margin-bottom: 30px;
   word-spacing: 1px;
 }
@@ -634,8 +634,9 @@ main .section3 .box2 .sp2{order: 2;}
   }
 
   main .section3 .box .sp2 .big{
-    font-size: 34px;
+    font-size: 38px;
     font-weight: 900;
+    word-spacing: 3px;
   }
   
   main .section3 .box .sp2 .b2{
