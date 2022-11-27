@@ -248,6 +248,8 @@ header .section1 a:hover{
 
   header .section1 h3{
     width: 85%;
+    line-height: 26px;
+    margin-top: 18px;
   }
 
 
