@@ -178,7 +178,7 @@ nav .i{display: none; }
   }
 
   nav .logo{
-    font-size: 24px;
+    font-size: 25px;
     letter-spacing: 3px;
   }
 
@@ -188,13 +188,15 @@ nav .i{display: none; }
 
   nav .i{
     color: white;
-    font-size: 12px;
     display: flex;
     margin-left: 0px;
-    padding: 7px;
+    padding: 8px;
     background-color: rgb(0, 211, 0);
   box-shadow: 0px 0px 4px 3px  green;
     border-radius: 100%;
+  }
+  nav .i i{
+    font-size: 18px;
   }
 
 }
