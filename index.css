@@ -244,12 +244,12 @@ main{
 main .section2{
   width: 100%;
   justify-content: center;
-  background-color: #B2BEB5;
+  background-color: rgb(178, 190, 181, 0.3);
   border-radius: 50px;
   margin: 0 1%;
   margin-top: 15px;
   display: flex; flex-direction: column; justify-content: flex-start; align-items: center; 
-  padding: 5% 0 3% 0;
+  padding: 3.6% 0 3% 0;
 }
 
 main .section2 p{
@@ -451,12 +451,14 @@ header .section1 a{
  }
 
  main .section2{
+   margin-top: 10px;
   padding: 8% 0 6% 0;
 }
  
  main .section2 p{
   font-size: 26px;
   width: 90%;
+  line-height: 37px;
 }
 
 }
