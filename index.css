@@ -173,7 +173,7 @@ nav .i{display: none; }
 
 @media screen and (max-width: 650px) {
   nav{
-    padding: 0 6%;
+    padding: 0 5%;
     height: 70px;
   }
 
