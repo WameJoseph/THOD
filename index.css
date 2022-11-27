@@ -162,7 +162,7 @@ header .section1 a{
 
 header .section1 a i{
   margin-left: 15px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 900;
 }
 
@@ -254,7 +254,9 @@ header .section1 a:hover{
 
 
 header .section1{
-  padding: 6% 0 20% 0;
+  padding: 8% 0 20% 0;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 header .section1 h1{
@@ -266,6 +268,8 @@ header .section1 a{
   font-size: 18px;
   margin-top: 12%;
   width: 85%;
+  background-color: rgb(1, 192, 1);
+  box-shadow: 0px 0px 2px 2px  rgba(0, 128, 0, 0.432);
  }
 }
 
@@ -289,8 +293,8 @@ header .section1 a{
     display: flex;
     margin-left: 0px;
     padding: 8px;
-    background-color: rgb(0, 211, 0);
-  box-shadow: 0px 0px 4px 3px  green;
+    background-color: rgb(1, 192, 1);
+  box-shadow: 0px 0px 2px 2px  rgba(0, 128, 0, 0.432);
     border-radius: 100%;
   }
   nav .i i{
@@ -299,7 +303,7 @@ header .section1 a{
 
   header .section1 h3{
     font-size: 16px;
-    width: 90%;
+    width: 95%;
     font-weight: 500;
   }
   
