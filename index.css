@@ -173,7 +173,13 @@ nav .i{display: none; }
 
 @media screen and (max-width: 650px) {
   nav{
-    padding: 20px 8%;
+    padding: 0 6%;
+    height: 80px;
+  }
+
+  nav .logo{
+    font-size: 26px;
+    letter-spacing: 1px;
   }
 
   nav .connect{
@@ -182,10 +188,10 @@ nav .i{display: none; }
 
   nav .i{
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     margin-left: 0px;
-    padding: 13px;
+    padding: 6px;
     background-color: rgb(0, 211, 0);
   box-shadow: 0px 0px 4px 3px  green;
     border-radius: 100%;
