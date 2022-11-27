@@ -6,6 +6,9 @@
   text-decoration: none;
 }
 
+body{background-color: #F5F5DC;}
+body::-webkit-scrollbar{display: none;}
+
 header {
   width: 100%;
   display: flex;
@@ -121,8 +124,8 @@ header .section1{
   width: 100%;
   /* height: 80vh; */
   background-color: #1f1f1f;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
   padding: 3% 0 0 0;
   display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
   margin-top: -5px;
@@ -233,6 +236,51 @@ header .section1 a:hover{
   transform: rotate3d('10deg');
 }
 
+main{
+  width: 100%;
+  display: flex; justify-content: center; align-items: flex-start; 
+}
+
+main .section2{
+  width: 100%;
+  justify-content: center;
+  background-color: #B2BEB5;
+  border-radius: 50px;
+  margin: 0 1%;
+  margin-top: 15px;
+  display: flex; flex-direction: column; justify-content: flex-start; align-items: center; 
+  padding: 5% 0 3% 0;
+}
+
+main .section2 p{
+  font-size: 40px;
+  font-weight: 800;
+  width: 78%;
+  text-align: center;
+}
+
+.lets{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(0, 211, 0);
+ /* box-shadow: 0px 0px 8px 6px  rgb(1, 80, 1); */
+ color: white;
+ font-size: 18px;
+ border-radius: 30px;
+ padding: 10px 30px;
+ margin-top: 6%;
+ font-weight: 800;
+ transition: 300ms;
+}
+
+.lets i{
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+
 @media screen and (max-width: 1100px) {
   nav .logo{font-size: 28px;}
 
@@ -307,33 +355,38 @@ header .section1 a:hover{
     margin-left: 25px;
   }
 
+ header .section1{
+    padding: 8% 0 0 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+
+  header .section1 h1{
+    font-size: 44px;
+    letter-spacing: 2px;
+  }
+
   header .section1 h3{
     width: 85%;
     line-height: 26px;
     margin-top: 18px;
   }
 
+ 
+  header .section1 a{
+    padding: 12px 35px;
+    font-size: 18px;
+    margin-top: 12%;
+    /* width: 85%; */
+    background-color: rgb(1, 192, 1);
+    box-shadow: 0px 0px 2px 2px  rgba(0, 128, 0, 0.432);
+   }
 
-
-
-header .section1{
-  padding: 8% 0 0 0;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-}
-
-header .section1 h1{
-  font-size: 34px;
-  letter-spacing: 2px;
-}
-header .section1 a{
-  padding: 12px 25px;
-  font-size: 18px;
-  margin-top: 12%;
-  width: 85%;
-  background-color: rgb(1, 192, 1);
-  box-shadow: 0px 0px 2px 2px  rgba(0, 128, 0, 0.432);
- }
+   main .section2 p{
+    font-size: 32px;
+    width: 86%;
+  }
+  
 }
 
 @media screen and (max-width: 650px) {
@@ -364,6 +417,10 @@ header .section1 a{
     font-size: 18px;
   }
 
+  header .section1 h1{
+    font-size: 32px;
+  }
+
   header .section1 h3{
     font-size: 16px;
     width: 95%;
@@ -387,6 +444,19 @@ header .section1 a{
 .images .img3{
   margin-bottom: -25%;
   transform: rotate3d('10deg');
+}
+
+header .section1 a{
+  width: 85%;
+ }
+
+ main .section2{
+  padding: 8% 0 6% 0;
+}
+ 
+ main .section2 p{
+  font-size: 26px;
+  width: 90%;
 }
 
 }
