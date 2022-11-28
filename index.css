@@ -388,6 +388,86 @@ main .section3 .box .sp2 .lets{
 
 main .section3 .box2 .sp2{order: 2;} */
 
+main .section4{
+  width: 98%; display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* height: 40vh; */
+  margin: 0 auto;
+  background-color: rgb(31, 31, 31, 0.9);
+  border-radius: 30px;
+  margin-top: 7.5%;
+  padding: 4% 0;
+}
+
+main .section4 .bg{
+  font-size: 46px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+main .section4 .bg2{
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+main .section4 .sp{
+  width: 100%;
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
+  height: fit-content;
+  /* margin-top: 7%; */
+}
+
+
+main .section4 .sp .steps{
+  width: 330px;
+  height: 220px;
+  background-color: white;
+  border-radius: 45px;
+  margin: 0 20px;
+  display: flex;flex-direction: column; justify-content: flex-start; align-items: flex-start;
+  padding: 25px 2%;
+  margin-top: 7%;
+}
+
+main .section4 .sp .steps .num{
+  padding: 5px 15px;
+  background-color: #1f1f1f;
+  color: white;
+  font-size: 20px;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+main .section4 .sp .steps .big{
+  font-size: 34px;
+  color: #1f1f1f;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-top: 15px;
+}
+
+main .section4 .sp .steps .text{
+  font-size: 20px;
+  color: #1f1f1f;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1100px) {
   nav .logo {
@@ -528,6 +608,33 @@ main .section3 .box2 .sp2{order: 2;}
     width: 86%;
   }
 
+  main .section4 .bg{
+    font-size: 44px;
+    width: 85%;
+  }
+  
+  main .section4 .bg2{
+    font-size: 20px;
+    width: 80%;
+  }
+  
+  main .section4 .sp{
+    width: 100%;
+    display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center;
+    flex-direction: column;
+  }
+  
+  main .section4 .sp .steps{
+    width: 80%;
+    height: 220px;
+    background-color: white;
+    border-radius: 45px;
+    margin: 0 14px;
+    display: flex;flex-direction: column; justify-content: flex-start; align-items: flex-start;
+    padding: 20px 20px;
+    margin-top: 7%;
+  }
+  
 
 }
 
@@ -646,9 +753,38 @@ main .section3 .box2 .sp2{order: 2;}
   }
   
   main .section3 .box .sp2 .lets{
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
     margin-top: 20px;
+  }
+
+  main .section4 .bg{
+    font-size: 36px;
+    width: 85%;
+    margin-top: 20px;
+  }
+  
+  main .section4 .bg2{
+    font-size: 20px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  main .section4 .sp{
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+  
+  main .section4 .sp .steps{
+    width: 90%;
+    height: 220px;
+    background-color: white;
+    border-radius: 45px;
+    margin: 0 14px;
+    display: flex;flex-direction: column; justify-content: flex-start; align-items: flex-start;
+    padding: 20px 20px;
+    margin-top: 13%;
   }
   
 
