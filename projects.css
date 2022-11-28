@@ -1,0 +1,106 @@
+nav{
+  padding: 25px 5% 20px 5%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .sectioni{
+    margin-top: 1%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;
+    width: 95%;
+    border-radius: 15px;
+    background-color: #1f1f1f;
+    height: fit-content;
+    padding: 2% 3% 2% 3%;
+}
+
+header .sectioni h1 span{
+    color: white;
+    font-size: 46px;
+    text-decoration: underline;
+    margin-right: 15px;
+}
+
+header .sectioni h1{
+    color: white;
+    font-size: 36px;
+}
+
+header .sectioni .colors{
+    display: flex; justify-content: left; align-items: center;
+    margin-top: 10px;
+}
+
+header .sectioni .colors .cc{
+    display: flex; justify-content: center; align-items: center;
+}
+
+header .sectioni .colors .cc .c{
+    padding: 8px; border-radius: 100%; background-color: rgb(1, 192, 1);
+    margin-right: 5px;
+}
+
+header .sectioni .colors .cc p{
+    color: rgb(255, 255, 255, 0.4);
+    margin-right: 20px;
+}
+
+header .sectioni .support{
+    margin-left: auto;
+    margin-top: 13%;
+    display: flex; justify-content: center; align-items: center;
+    color: white; font-size: 20px;
+    font-weight: 600;
+}
+
+header .sectioni .support i{
+    color: #1f1f1f;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: white;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 800px){
+    nav{
+       height: 80px; 
+    }
+    header .sectioni{
+        margin-top: 3%; width: 95%; padding: 2% 3% 2% 4%;
+    }
+    header .sectioni h1 span{
+        color: white;
+        font-size: 38px;
+        margin-right: 8px;
+    }
+    header .sectioni h1{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    header .sectioni{
+        margin-top: 3%; width: 98%; padding: 4% 5%;
+    }
+    header .sectioni h1 span{
+        color: white;
+        font-size: 28px;
+        margin-right: 8px;
+    }
+    header .sectioni h1{
+        font-size: 20px;
+    }
+    header .sectioni .colors{
+        margin-top: 15px;
+    }
+    header .sectioni .colors .cc p span{display: none;} 
+
+    header .sectioni .support{
+        margin-top: 25%;
+        color: white; font-size: 16px;
+        font-weight: 600;
+    }
+     
+}
