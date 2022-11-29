@@ -63,6 +63,26 @@ header .sectioni .support i{
     margin-right: 15px;
 }
 
+header h5{
+    text-align: left;
+    width: 55%;
+    margin: 0 auto;
+    margin-left: 3%;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #1f1f1fe5;
+}
+header h6{
+    text-align: left;
+    /* width: 30%; */
+    margin: 0 auto;
+    margin-left: 3%;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1f1f1fe5;
+}
+
 @media screen and (max-width: 800px){
     nav{
        height: 80px; 
@@ -77,6 +97,11 @@ header .sectioni .support i{
     }
     header .sectioni h1{
         font-size: 32px;
+    }
+    header h5{
+        width: 65%;
+        margin-top: 23px;
+        font-size: 22px;
     }
 }
 
@@ -101,6 +126,15 @@ header .sectioni .support i{
         margin-top: 25%;
         color: white; font-size: 16px;
         font-weight: 600;
+    }
+    header h5{
+        width: 95%;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    header h6{
+        margin-top: 10px;
+        font-size: 14px;
     }
      
 }
