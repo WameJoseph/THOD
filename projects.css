@@ -68,7 +68,7 @@ header h5{
     width: 55%;
     margin: 0 auto;
     margin-left: 3%;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 24px;
     color: #1f1f1fe5;
 }
@@ -129,8 +129,8 @@ header h6{
     }
     header h5{
         width: 95%;
-        margin-top: 10px;
-        font-size: 18px;
+        margin-top: 16px;
+        font-size: 20px;
     }
     header h6{
         margin-top: 10px;
