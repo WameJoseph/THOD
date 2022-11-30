@@ -164,14 +164,14 @@ main .content {
   padding: 0 2%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
 main .content .item {
   width: 300px;
-  height: 250px;
+  height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -183,14 +183,16 @@ main .content .item {
   background-color: rgb(0, 0, 0, 0.12);
   padding: 12px;
   color: #1f1f1f;
+    /* margin-right: 1.6%; */
 }
 
 main .content .item .img {
   width: 100%;
-  height: 60%;
+  height: 50%;
   border-radius: 10px;
   background-color: rgb(0, 0, 0, 0.3);
-  background-image: url(Screenshot\\(131\).png);
+  /* background-image: url(Screenshot\\(131\).png); */
+  background-image: url(Screenshot\ \(131\).png);
   background-size: cover;
   background-position: center;
 }
@@ -210,6 +212,54 @@ main .content .item h3 {
   margin-top: 6px;
   letter-spacing: 0.5px;
 }
+
+main .content .item .h{
+    width: 100%;
+    display: flex; justify-content: right; align-items: center;
+    margin-top: auto;
+} 
+
+main .content .item .h .sp{
+    margin-left: 6px;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: gray;
+    margin-top: 5px;
+}
+
+main .content .item .h .s1{
+    margin-left: 6px;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: red;
+}
+
+main .content .item .h .s2{
+    margin-left: 6px;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(1, 192, 1);
+}
+
+main .content .item .h .s3{
+    margin-left: 6px;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 800px) {
   nav {
@@ -239,8 +289,9 @@ main .content .item h3 {
     width: 100%;
   }
   main .content .item {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    width: 80%;
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -252,6 +303,8 @@ main .content .item h3 {
     background-color: rgb(0, 0, 0, 0.12);
     padding: 12px;
     color: #1f1f1f;
+    margin-right: 0;
+    margin: 8% auto;
   }
 
   main .scar .title p {
@@ -265,6 +318,17 @@ main .content .item h3 {
   main .scar .title a span {
     display: none;
   }
+
+  
+main .content .item .h p{
+    font-size: 16px; display: flex; justify-content: center; align-items: center; 
+    /* border: solid; */
+}
+
+main .content .item .h p i{
+    margin-left: 10px; height: 100%; display: flex; align-items: center; 
+    /* border: solid; */ font-size: 20px;
+}
 }
 
 @media screen and (max-width: 650px) {
