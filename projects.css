@@ -83,6 +83,83 @@ header h6{
     color: #1f1f1fe5;
 }
 
+main{
+    margin-top: 3%;
+    width: 100%;
+}
+
+main .scar{
+    width: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;
+}
+
+main .scar .title{width: 100%; padding: 0 2%; display: flex; justify-content: space-between; align-items: center;}
+
+/* main .scar .title .sp{display: flex; flex-direction: column; align-items: flex-start; justify-content: center;} */
+
+main .scar .title p{font-size: 34px; text-decoration: underline;}
+
+main .scar .title h4{font-size: 16px; text-decoration: none; color: #1f1f1fe5;}
+
+main .scar .title a{font-size: 16px; text-decoration: none; color: #1f1f1fe5;}
+
+main .scar .title a span{font-size: 16px; text-decoration: none; color: #1f1f1fe5; margin-right: 10px;}
+
+main .scar .title a i{font-size: 14px; padding: 10px; background-color:  rgba(233, 178, 38, 0.3); color: white; border-radius: 100%;}
+
+main h4{
+    width: 100%;
+    margin-top: 15px;
+    padding: 0 2%;
+    text-align: left;
+}
+
+main .content {
+    width: 100%;
+    padding: 0 2%;
+    display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start; flex-wrap: wrap;
+}
+
+main .content .item{
+    width: 300px;
+    height: 250px;
+    display: flex; flex-direction: column; justify-content: left; align-items: flex-start;
+    /* border: solid white;  */
+    overflow: hidden;
+    margin: 2% 0;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0, 0.12);
+    padding: 12px;
+    color: #1f1f1f;
+}
+
+main .content .item .img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.3);
+    background-image: url(Screenshot\ \(131\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+main .content .item p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 13px;
+    letter-spacing: 0.5px;
+}
+
+main .content .item h3{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 6px;
+    letter-spacing: 0.5px;
+}
+
+
+
 @media screen and (max-width: 800px){
     nav{
        height: 80px; 
@@ -103,6 +180,32 @@ header h6{
         margin-top: 23px;
         font-size: 22px;
     }
+
+    main{
+        margin-top: 12%;
+        width: 100%;
+    }
+    main .content .item{
+        width: 300px;
+        height: 250px;
+        display: flex; flex-direction: column; justify-content: left; align-items: flex-start;
+        /* border: solid white;  */
+        overflow: hidden;
+        margin: 8% 0;
+        border-radius: 12px;
+        background-color: rgb(0, 0, 0, 0.12);
+        padding: 12px;
+        color: #1f1f1f;
+    }
+    
+    main .scar .title p{font-size: 28px; text-decoration: underline;}
+
+    main .content {
+        
+    }
+    
+    main .scar .title a span{display: none;}
+
 }
 
 @media screen and (max-width: 650px){
