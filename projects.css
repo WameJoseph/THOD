@@ -1,243 +1,306 @@
-nav{
+nav {
   padding: 25px 5% 20px 5%;
 }
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
-header .sectioni{
-    margin-top: 1%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;
-    width: 95%;
-    border-radius: 15px;
-    background-color: #1f1f1f;
-    height: fit-content;
-    padding: 2% 3% 2% 3%;
-}
-
-header .sectioni h1 span{
-    color: white;
-    font-size: 46px;
-    text-decoration: underline;
-    margin-right: 15px;
+header .sectioni {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 95%;
+  border-radius: 15px;
+  background-color: #1f1f1f;
+  height: fit-content;
+  padding: 2% 3% 2% 3%;
 }
 
-header .sectioni h1{
-    color: white;
-    font-size: 36px;
+header .sectioni h1 span {
+  color: white;
+  font-size: 46px;
+  text-decoration: underline;
+  margin-right: 15px;
 }
 
-header .sectioni .colors{
-    display: flex; justify-content: left; align-items: center;
-    margin-top: 10px;
+header .sectioni h1 {
+  color: white;
+  font-size: 36px;
 }
 
-header .sectioni .colors .cc{
-    display: flex; justify-content: center; align-items: center;
+header .sectioni .colors {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
 }
 
-header .sectioni .colors .cc .c{
-    padding: 8px; border-radius: 100%; background-color: rgb(1, 192, 1);
-    margin-right: 5px;
+header .sectioni .colors .cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-header .sectioni .colors .cc p{
-    color: rgb(255, 255, 255, 0.4);
-    margin-right: 20px;
+header .sectioni .colors .cc .c {
+  padding: 8px;
+  border-radius: 100%;
+  background-color: rgb(1, 192, 1);
+  margin-right: 5px;
 }
 
-header .sectioni .support{
-    margin-left: auto;
-    margin-top: 13%;
-    display: flex; justify-content: center; align-items: center;
-    color: white; font-size: 20px;
-    font-weight: 600;
+header .sectioni .colors .cc p {
+  color: rgb(255, 255, 255, 0.4);
+  margin-right: 20px;
 }
 
-header .sectioni .support i{
-    color: #1f1f1f;
-    padding: 5px;
-    border-radius: 100%;
-    background-color: white;
-    margin-right: 15px;
+header .sectioni .support {
+  margin-left: auto;
+  margin-top: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-header h5{
-    text-align: left;
-    width: 55%;
-    margin: 0 auto;
-    margin-left: 3%;
-    margin-top: 20px;
-    font-size: 24px;
-    color: #1f1f1fe5;
-}
-header h6{
-    text-align: left;
-    /* width: 30%; */
-    margin: 0 auto;
-    margin-left: 3%;
-    margin-top: 5px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #1f1f1fe5;
+header .sectioni .support i {
+  color: #1f1f1f;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: white;
+  margin-right: 15px;
 }
 
-main{
-    margin-top: 3%;
-    width: 100%;
+header h5 {
+  text-align: left;
+  width: 55%;
+  margin: 0 auto;
+  margin-left: 3%;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #1f1f1fe5;
+}
+header h6 {
+  text-align: left;
+  /* width: 30%; */
+  margin: 0 auto;
+  margin-left: 3%;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f1f1fe5;
 }
 
-main .scar{
-    width: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;
+main {
+  margin-top: 3%;
+  width: 100%;
 }
 
-main .scar .title{width: 100%; padding: 0 2%; display: flex; justify-content: space-between; align-items: center;}
+main .scar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+main .scar .title {
+  width: 100%;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* main .scar .title .sp{display: flex; flex-direction: column; align-items: flex-start; justify-content: center;} */
 
-main .scar .title p{font-size: 34px; text-decoration: underline;}
+main .scar .title p {
+  font-size: 34px;
+  text-decoration: underline;
+  font-weight: 600;
+}
 
-main .scar .title h4{font-size: 16px; text-decoration: none; color: #1f1f1fe5;}
+main .scar .title h4 {
+  font-size: 16px;
+  text-decoration: none;
+  color: #1f1f1fe5;
+}
 
-main .scar .title a{font-size: 16px; text-decoration: none; color: #1f1f1fe5;}
+main .scar .title a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #1f1f1fe5;
+}
 
-main .scar .title a span{font-size: 16px; text-decoration: none; color: #1f1f1fe5; margin-right: 10px;}
+main .scar .title a span {
+  font-size: 16px;
+  text-decoration: none;
+  color: #1f1f1fe5;
+  margin-right: 10px;
+}
 
-main .scar .title a i{font-size: 14px; padding: 10px; background-color:  rgba(233, 178, 38, 0.3); color: white; border-radius: 100%;}
+main .scar .title a i {
+  font-size: 14px;
+  padding: 10px;
+  background-color: rgba(233, 178, 38, 0.3);
+  color: white;
+  border-radius: 100%;
+}
 
-main h4{
-    width: 100%;
-    margin-top: 15px;
-    padding: 0 2%;
-    text-align: left;
+main h4 {
+  width: 100%;
+  margin-top: 15px;
+  padding: 0 2%;
+  text-align: left;
 }
 
 main .content {
-    width: 100%;
-    padding: 0 2%;
-    display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start; flex-wrap: wrap;
+  width: 100%;
+  padding: 0 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-main .content .item{
-    width: 300px;
-    height: 250px;
-    display: flex; flex-direction: column; justify-content: left; align-items: flex-start;
+main .content .item {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  /* border: solid white;  */
+  overflow: hidden;
+  margin: 2% 0;
+  border-radius: 12px;
+  background-color: rgb(0, 0, 0, 0.12);
+  padding: 12px;
+  color: #1f1f1f;
+}
+
+main .content .item .img {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0, 0.3);
+  background-image: url(Screenshot\\(131\).png);
+  background-size: cover;
+  background-position: center;
+}
+
+main .content .item p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 13px;
+  letter-spacing: 0.5px;
+}
+
+main .content .item h3 {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 6px;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    height: 80px;
+  }
+  header .sectioni {
+    margin-top: 3%;
+    width: 95%;
+    padding: 2% 3% 2% 4%;
+  }
+  header .sectioni h1 span {
+    color: white;
+    font-size: 38px;
+    margin-right: 8px;
+  }
+  header .sectioni h1 {
+    font-size: 32px;
+  }
+  header h5 {
+    width: 65%;
+    margin-top: 23px;
+    font-size: 22px;
+  }
+
+  main {
+    margin-top: 12%;
+    width: 100%;
+  }
+  main .content .item {
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
     /* border: solid white;  */
     overflow: hidden;
-    margin: 2% 0;
+    margin: 8% 0;
     border-radius: 12px;
     background-color: rgb(0, 0, 0, 0.12);
     padding: 12px;
     color: #1f1f1f;
+  }
+
+  main .scar .title p {
+    font-size: 28px;
+    text-decoration: underline;
+  }
+
+  main .content {
+  }
+
+  main .scar .title a span {
+    display: none;
+  }
 }
 
-main .content .item .img{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px;
-    background-color: rgb(0, 0, 0, 0.3);
-    background-image: url(Screenshot\ \(131\).png);
-    background-size: cover;
-    background-position: center;
-}
+@media screen and (max-width: 650px) {
+  header .sectioni {
+    margin-top: 3%;
+    width: 98%;
+    padding: 4% 5%;
+  }
+  header .sectioni h1 span {
+    color: white;
+    font-size: 32px;
+    margin-right: 8px;
+  }
+  header .sectioni h1 {
+    font-size: 22px;
+  }
+  header .sectioni .colors {
+    margin-top: 15px;
+  }
+  header .sectioni .colors .cc p span {
+    display: none;
+  }
 
-main .content .item p{
-    font-size: 18px;
+  header .sectioni .support {
+    margin-top: 25%;
+    color: white;
+    font-size: 16px;
     font-weight: 600;
-    text-align: left;
-    margin-top: 13px;
-    letter-spacing: 0.5px;
-}
-
-main .content .item h3{
-    font-size: 15px;
-    font-weight: 500;
-    text-align: left;
-    margin-top: 6px;
-    letter-spacing: 0.5px;
-}
-
-
-
-@media screen and (max-width: 800px){
-    nav{
-       height: 80px; 
-    }
-    header .sectioni{
-        margin-top: 3%; width: 95%; padding: 2% 3% 2% 4%;
-    }
-    header .sectioni h1 span{
-        color: white;
-        font-size: 38px;
-        margin-right: 8px;
-    }
-    header .sectioni h1{
-        font-size: 32px;
-    }
-    header h5{
-        width: 65%;
-        margin-top: 23px;
-        font-size: 22px;
-    }
-
-    main{
-        margin-top: 12%;
-        width: 100%;
-    }
-    main .content .item{
-        width: 230px;
-        height: 230px;
-        display: flex; flex-direction: column; justify-content: left; align-items: flex-start;
-        /* border: solid white;  */
-        overflow: hidden;
-        margin: 8% 0;
-        border-radius: 12px;
-        background-color: rgb(0, 0, 0, 0.12);
-        padding: 12px;
-        color: #1f1f1f;
-    }
-    
-    main .scar .title p{font-size: 28px; text-decoration: underline;}
-
-    main .content {
-        
-    }
-    
-    main .scar .title a span{display: none;}
-
-}
-
-@media screen and (max-width: 650px){
-    header .sectioni{
-        margin-top: 3%; width: 98%; padding: 4% 5%;
-    }
-    header .sectioni h1 span{
-        color: white;
-        font-size: 28px;
-        margin-right: 8px;
-    }
-    header .sectioni h1{
-        font-size: 20px;
-    }
-    header .sectioni .colors{
-        margin-top: 15px;
-    }
-    header .sectioni .colors .cc p span{display: none;} 
-
-    header .sectioni .support{
-        margin-top: 25%;
-        color: white; font-size: 16px;
-        font-weight: 600;
-    }
-    header h5{
-        width: 95%;
-        margin-top: 16px;
-        font-size: 20px;
-    }
-    header h6{
-        margin-top: 10px;
-        font-size: 14px;
-    }
-     
+  }
+  header h5 {
+    width: 95%;
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  header h6 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
 }
