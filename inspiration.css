@@ -1,0 +1,44 @@
+nav{
+  padding: 28px 5% 22px 5%;
+}
+
+.sectiona{
+    width: 100%;
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+    margin-top: 1.5%;
+}
+
+.sectiona .head{
+    width: 90%;
+    padding: 5%;
+    display: flex; align-items: center; justify-content: center;
+    background-color: rgba(31, 31, 31, 0.4);
+    background-blend-mode: overlay;
+    border-radius: 20px;
+    background-image: url(milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sectiona .head h1{
+    font-size: 78px;
+    color: white;
+    /* color: #1f1f1f; */
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 800px){
+    .sectiona .head{
+        width: 100%;
+        padding: 15% 3%;
+        background-color: rgba(31, 31, 31, 0.2);
+        border-radius: 5px;
+    }
+    .sectiona .head h1{
+        font-size: 34px;
+        letter-spacing: 1px;
+        font-weight: 800;
+    }    
+}

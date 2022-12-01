@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,6 +23,16 @@ body::-webkit-scrollbar {
   z-index: 1;
   right: -100%;
   transition: 100ms; display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+
+.sidenav a{
+  width: 100%;
+  padding: 20px;
+  border-bottom: solid 0.5px #1f1f1f ;
+  color: #1f1f1f;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 header {
