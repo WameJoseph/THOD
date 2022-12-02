@@ -121,12 +121,12 @@ nav{
 
     .sectiona .head{
         width: 100%;
-        padding: 15% 3%;
+        padding: 13% 3%;
         background-color: rgba(31, 31, 31, 0.2);
         border-radius: 5px;
     }
     .sectiona .head h1{
-        font-size: 34px;
+        font-size: 38px;
         letter-spacing: 1px;
         font-weight: 800;
     }    
@@ -153,11 +153,34 @@ nav{
         color: #1f1f1fd0;
         font-size: 14px;
         font-weight: 600; 
-        margin-right: 15px;
+        margin-right: 0;
+        margin-left: 3%;
         border: solid 1px rgb(95, 95, 95);
         white-space: nowrap;
         transition: 250ms;
     }
+
+    
+.sectionb .items .head{
+    display: flex;justify-content: flex-start; align-items: center;
+    width: 100%; 
+    border-radius: 13px;
+    background-image: url(clothing.jpg);
+    padding: 4% 5%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(31, 31, 31, 0.8);
+    background-blend-mode: overlay;
+}
+
+    
+    .sectionb .items .head h3{
+        color: white;
+        font-size: 32px;
+
+    }
+    
+    
     
     
 }
