@@ -86,10 +86,46 @@ nav{
 .sectionb .items{
     display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
     width: 100%; 
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
-.sectionb .items .head{
+    .sectionb .items .cards{
+        width: 100%;
+        height: fit-content; display: flex; justify-content: left; align-items: flex-start; flex-wrap: wrap;
+    }
+
+    .sectionb .items .cards .card{
+        width: 30%;
+        height: 250px;
+        /* border: solid; */
+        margin-top: 4%;
+        margin-right: 3.3%;
+        overflow: hidden;
+        color: #1f1f1f;
+    }
+
+    .sectionb .items .cards .card .top{
+        height: 65%;
+        width: 100%;
+        border-radius: 10px;
+        background-image: url(GOLDEN\ Download\ free\ image\ of\ Gold\ and\ black\ Monstera\ Deliciosa\ leaves\ by\ Nunny\ about\ monstera\ gold\,\ Leaves\ gold\ black\,\ black\ gold\ monstera\,\ monstera\,\ and\ Modern\ botany\ 2277327.jpeg);
+        background-size: cover; background-position: center;
+    }
+
+    .sectionb .items .cards .card .mid h3{
+        margin: 10px 0 3px 0;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .sectionb .items .cards .card .mid h5{
+        font-size: 16px;
+        font-weight: 400;
+        padding-right: 10px;
+    }
+
+
+    .sectionb .items .head{
     display: flex;justify-content: flex-start; align-items: center;
     width: 100%; 
     border-radius: 19px;
@@ -97,7 +133,7 @@ nav{
     padding: 2% 40px;
     background-position: center;
     background-size: cover;
-    background-color: rgba(31, 31, 31, 0.8);
+    background-color: rgba(31, 31, 31, 0.4);
     background-blend-mode: overlay;
 }
 
@@ -159,7 +195,7 @@ nav{
         color: #1f1f1fd0;
         font-size: 14px;
         font-weight: 600; 
-        margin-right: 20px;
+        margin-right: 13px;
         border: solid 1px rgb(95, 95, 95);
         white-space: nowrap;
         transition: 250ms;
@@ -179,16 +215,38 @@ nav{
     background-size: cover;
     background-color: rgba(31, 31, 31, 0.8);
     background-blend-mode: overlay;
-}
-
-    
+} 
     .sectionb .items .head h3{
         color: white;
         font-size: 32px;
 
     }
+
+
+    .sectionb .items .cards .card{
+        width: 30%;
+        height: 290px;
+        /* border: solid; */
+        margin-top: 7%;
+        margin-right: 3.3%;
+    }
+
+    .sectionb .items .cards .card .top{
+        height: 65%;
+        width: 100%;
+    }
     
-    
+    .sectionb .items .cards .card .mid h3{
+        margin: 10px 0 3px 0;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .sectionb .items .cards .card .mid h5{
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 10px;
+    }
     
     
 }
