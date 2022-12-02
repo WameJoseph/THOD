@@ -201,7 +201,7 @@ nav{
         transition: 250ms;
     }
     .sectionb .items{
-        margin-top: 7%;
+        margin-top: 10%;
     }
 
     
@@ -218,17 +218,22 @@ nav{
 } 
     .sectionb .items .head h3{
         color: white;
-        font-size: 32px;
+        font-size: 30px;
 
     }
 
+    .sectionb .items .cards{
+       justify-content: center;
+    }
 
     .sectionb .items .cards .card{
-        width: 30%;
-        height: 290px;
+        width: 45%;
+        height: 330px;
         /* border: solid; */
-        margin-top: 7%;
-        margin-right: 3.3%;
+        margin-top: 10%;
+        /* margin-right: 3.3%; */
+        margin: 7% 2.2% 0% 2.2%;
+        /* margin-right: ; */
     }
 
     .sectionb .items .cards .card .top{
