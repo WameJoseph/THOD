@@ -135,15 +135,21 @@ nav{
         margin-top: 10px;
         font-size: 22px;
         font-weight: 500;
-        letter-spacing: 1px;
+        letter-spacing: .3px;
     }
 
     .sectionb{
         width: 100%;
         display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
         margin: 0 auto;
-            margin-top: 8%;
+            margin-top: 12%;
     }
+
+    .sectionb .nav .flex{
+        padding-bottom: 15px;
+        padding-left: 2%;
+    }
+    
 
     .sectionb .nav .flex a{
         padding: 10px 15px;
@@ -153,11 +159,13 @@ nav{
         color: #1f1f1fd0;
         font-size: 14px;
         font-weight: 600; 
-        margin-right: 0;
-        margin-left: 3%;
+        margin-right: 20px;
         border: solid 1px rgb(95, 95, 95);
         white-space: nowrap;
         transition: 250ms;
+    }
+    .sectionb .items{
+        margin-top: 7%;
     }
 
     
