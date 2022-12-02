@@ -31,8 +31,9 @@ nav{
 
 .sectiona h3{
     margin-top: 10px;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
+    letter-spacing: 1.5px;
 }
 
 
@@ -40,13 +41,52 @@ nav{
     width: 88%;
     display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
     margin: 0 auto;
-        margin-top: 5%;
+        margin-top: 4%;
 }
+
+.sectionb .nav{
+    width: 100%;
+    display: flex;
+}
+
+.sectionb .nav .flex{
+    width: 100%;
+    display: flex; justify-content: flex-start; align-items: center;
+    overflow: scroll;
+    border-bottom: solid 1px silver;
+    padding-bottom: 15px;
+}
+
+.sectionb .nav .flex::-webkit-scrollbar{
+    display: none;
+}
+
+.sectionb .nav .flex a{
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255, 0.1);
+    background-color: rgb(233, 230, 230, 0.3);
+    border-radius: 30px;
+    color: #1f1f1fd0;
+    font-size: 16px;
+    font-weight: 600; 
+    margin-right: 15px;
+    border: solid 1px rgb(95, 95, 95);
+    white-space: nowrap;
+    transition: 250ms;
+}
+
+.sectionb .nav .flex a:hover{
+    background-color: rgba(197, 197, 197, 0.2);
+    /* background-color: rgb(255, 255, 255, 0.1); */
+    color: #1f1f1fd0;
+    border: solid 1px rgb(145, 145, 145);
+}
+
 
 .sectionb .items{
     display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
     width: 100%; 
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .sectionb .items .head{
@@ -90,4 +130,34 @@ nav{
         letter-spacing: 1px;
         font-weight: 800;
     }    
+
+    .sectiona h3{
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .sectionb{
+        width: 100%;
+        display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+        margin: 0 auto;
+            margin-top: 8%;
+    }
+
+    .sectionb .nav .flex a{
+        padding: 10px 15px;
+        background-color: rgb(255, 255, 255, 0.1);
+        background-color: rgb(233, 230, 230, 0.3);
+        border-radius: 30px;
+        color: #1f1f1fd0;
+        font-size: 14px;
+        font-weight: 600; 
+        margin-right: 15px;
+        border: solid 1px rgb(95, 95, 95);
+        white-space: nowrap;
+        transition: 250ms;
+    }
+    
+    
 }
