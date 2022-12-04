@@ -87,6 +87,7 @@ nav{
     display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
     width: 100%; 
     margin-top: 5%;
+    margin-bottom: 3%;
 }
 
     .sectionb .items .cards{
@@ -98,7 +99,7 @@ nav{
         width: 30%;
         height: 250px;
         /* border: solid; */
-        margin-top: 4%;
+        margin-top: 5%;
         margin-right: 3.3%;
         overflow: hidden;
         color: #1f1f1f;
