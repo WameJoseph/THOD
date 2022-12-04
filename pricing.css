@@ -169,11 +169,11 @@ main .sectionc .cards .paynow{
 @media screen and (max-width: 1350px){
     
     main .sectionc {
-        padding: 0 5.5%; 
+        padding: 0 3%; 
         flex-wrap: wrap;
     }
 
-    main .sectionc .card3{
+    main .sectionc .cards{
         margin-left: auto; margin-right: auto;
     }
 }
