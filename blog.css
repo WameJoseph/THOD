@@ -1,0 +1,183 @@
+nav{
+  padding: 25px 2% 20px 1%;
+}
+
+nav .sp1{
+    margin-left: 0;
+}
+
+nav .logo{
+    display: none;
+}
+
+nav .logo2{
+    margin-left: auto;
+    letter-spacing: 3px;
+    display: flex;
+}
+
+header{
+     width: 85%;
+     border-radius: 20px;
+     background-color: #1f1f1f;
+     margin: 20px auto;
+     height: fit-content;
+     display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+     padding: 4% 5% 4% 5%;
+     margin-bottom: 0;
+}
+
+header h2{
+    font-size: 52px;
+    font-weight: 900;
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    margin-top: 0px;
+}
+
+main .sectioni{
+    width: 86%;
+    /* border: solid; */
+    display: flex; justify-content: space-between; align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+main .sectioni .one{
+    width: 100%; display: flex; justify-content: space-between; align-items: center;
+    height: 250px;
+    /* border: solid; */
+    margin-top: 30px;
+}
+
+main .sectioni .one .as{
+    /* border: solid; */
+    width: 45%;
+    height: 100%;
+    border-radius: 10px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end;
+    background-image: url(pexels-cottonbro-6491249.jpg); background-size: cover; background-position: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: overlay;
+    overflow: hidden;
+    text-decoration-color: white;
+    transition: 300ms;
+    color: white;
+}
+
+main .sectioni .one .as:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+    text-decoration: underline; 
+}
+
+
+main .sectioni .one .as2{
+    width: 25%;
+    /* background-image: url(GAMING\ IMG2.png); background-size: cover; background-position: center; */
+}
+
+main .sectioni .one .as3{
+    width: 25%;
+    /* background-image: url(GAMING\ IMG2.png); background-size: cover; background-position: center; */
+
+}
+
+main .sectioni .one .as4{
+    width: 32%;
+    /* background-image: url(GAMING\ IMG2.png); background-size: cover; background-position: center; */
+
+}
+
+main .sectioni .one .as5{
+    width: 25%;
+}
+
+main .sectioni .one .as6{
+    width: 25%;
+}
+
+main .sectioni .one .as7{
+    width: 25%;
+}
+
+
+
+main .sectioni .one .as .sp1{
+    width: 100%;
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end;
+    /* border: solid white; */
+    /* height: 100%; */
+    padding: 0 15px;
+    color: white;
+    font-family: 'alexandria', sans-serif;
+    /* box-shadow: inset 0px 0px 5px 4px rgb(0, 0, 0, 0.2); */
+    background-image: linear-gradient(rgb(255, 255, 255,0.02), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.9));
+    display: block;
+}
+
+main .sectioni .one .as .sp1 .h{
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 25px; color: rgb(255, 255, 255, 0.8);
+}
+
+
+main .sectioni .one .as .sp1 .nn{
+    display: flex; justify-content: right; align-items: center;
+    /* border: solid white;  */
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+main .sectioni .one .as .sp1 .nn .socials{
+    display: flex;   margin-top: 10px;
+}
+
+main .sectioni .one .as .sp1 .nn .socials i{
+    display: flex; justify-content: center; align-items: center;
+    background: rgb(255, 255, 255, 0.4);
+    border-radius: 100%; font-size: 14px; 
+    color: black;
+    width: 30px; height:30px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    nav .logo{
+        display: flex;
+    }
+    
+    nav .logo2{
+        display: none;
+    }
+
+    nav{
+        padding: 20px 5% 20px 5%;
+      }
+
+      header{
+        width: 100%;
+        border-radius: 5px;
+        background-color: #1f1f1f;
+        margin: 10px auto;
+        height: fit-content;
+        display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+        padding: 4% 5% 4% 5%;
+        margin-bottom: 0;
+   }
+
+   header h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+      
+}

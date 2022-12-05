@@ -9,6 +9,7 @@
 
 body {
   background-color: #f5f5dc;
+  background-color: #ffff;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -906,6 +907,11 @@ main .section3 .box2 .sp2{order: 2;}
   main .section5 .main .g{
     padding: 0 5%;
   }
+
+  nav .x{
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 650px) {
