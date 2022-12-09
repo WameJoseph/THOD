@@ -49,7 +49,7 @@ nav{
     display: flex; position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 102.5px;
-    z-index: 1;
+    /* z-index: 1; */
     background-color: white;
 }
 
@@ -58,6 +58,8 @@ nav{
     display: flex; justify-content: flex-start; align-items: center;
     overflow: scroll;
     border-bottom: solid 1px silver;
+    border-top: solid 1px silver;
+
     padding: 15px 0;
     
    
@@ -194,12 +196,13 @@ nav{
         width: 100%;
         display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
         margin: 0 auto;
-            margin-top: 8%;
+            /* margin-top: 8%; */
+            margin-top: 10px;
     }
 
     .sectionb .nav{
         top: 82.5px;
-
+        margin-bottom: 10px;
     }
 
     .sectionb .nav .flex{
@@ -228,7 +231,7 @@ nav{
     
 .sectionb .items .head{
     display: flex;justify-content: flex-start; align-items: center;
-    width: 100%; 
+    width: 95%; 
     border-radius: 13px;
     background-image: url(clothing.jpg);
     padding: 4% 5%;

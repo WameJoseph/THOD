@@ -8,12 +8,12 @@ header {
   align-items: center;
 }
 header .sectioni {
-  margin-top: 0%;
+  margin-top: 2% !important;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 100%;
+  width: 90%;
   height: fit-content;
   padding: 2% 6%;
  background-color: #1f1f1f;
@@ -81,7 +81,7 @@ header h5 {
   text-align: left;
   width: 55%;
   margin: 0 auto;
-  margin-left: 3%;
+  margin-left: 10%;
   margin-top: 20px;
   font-size: 22px;
   color: #1f1f1fe5;
@@ -91,11 +91,12 @@ header h6 {
   text-align: left;
   /* width: 30%; */
   margin: 0 auto;
-  margin-left: 3%;
+  margin-left: 10%;
   margin-top: 5px;
   font-size: 16px;
   font-weight: 400;
   color: #1f1f1fe5;
+  /* border: solid; */
 }
 
 main {
@@ -114,7 +115,7 @@ main .scar {
 
 main .scar .title {
   width: 100%;
-  padding: 0 2%;
+  padding: 0 9.23%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -160,22 +161,22 @@ main .scar .title a i {
 main h4 {
   width: 100%;
   margin-top: 15px;
-  padding: 0 2%;
+  padding: 0 9.23%;
   text-align: left;
 }
 
 main .content {
   width: 100%;
-  padding: 0 2%;
+  padding: 0 9.23%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
 main .content .item {
-  width: 280px;
+  width: 30%;
   height: 260px;
   display: flex;
   flex-direction: column;
@@ -183,31 +184,33 @@ main .content .item {
   align-items: flex-start;
   /* border: solid white;  */
   overflow: hidden;
-  margin: 4% 0 2% 0;
+  margin: 2% 0 0% 0;
   border-radius: 12px;
-  background-color: rgb(0, 0, 0, 0.12);
-  padding: 12px;
+  background-color: rgba(163, 161, 161, 0.12);
+  padding: 10px;
   color: #1f1f1f;
     /* margin-right: 21px; */
+    margin-right: 3%;
 }
 
 main .content .item .img {
   width: 100%;
-  height: 50%;
-  border-radius: 10px;
+  height: 60%;
+  border-radius: 15px;
   background-color: rgb(0, 0, 0, 0.3);
   /* background-image: url(Screenshot\\(131\).png); */
-  background-image: url(Screenshot\ \(131\).png);
+  background-image: url(abstract2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 main .content .item p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   text-align: left;
   margin-top: 13px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 main .content .item h3 {
@@ -260,7 +263,35 @@ main .content .item .h .s3{
 
 
 
+@media screen and (max-width: 1000px) {
+  header .sectioni {
+    width: 95%;
+  }
+  header .sectioni h1 span {
+    font-size: 55px;
+    text-decoration: underline;
+    margin-right: 15px;
+  }
+  header h5 {
+    margin-left: 5%;
+  }
+  header h6 {
+    margin-left: 5%;
+  }
 
+  main .scar .title {
+    padding: 0 5%;
+  }
+  
+  main h4 {
+    padding: 0 5%;
+  }
+  
+  main .content {
+    padding: 0 5%;
+  }
+  
+}
 
 
 
@@ -274,6 +305,8 @@ main .content .item .h .s3{
     margin-top: 0%;
     width: 100%;
     padding: 2% 3% 2% 4%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
   }
   header .sectioni h1 span {
     font-size: 42px;
@@ -293,14 +326,15 @@ main .content .item .h .s3{
     width: 100%;
   }
   main .content .item {
-    width: 250px;
+    width: 40%;
     /* width: 80%; */
-    height: 260px;
+    height: 280px;
     margin-right: 0;
-    margin: 8% auto;
+    margin: 5% 0;
+    margin-right: 20px;
   }
   main .scar {
-    margin-top: 13%;
+    margin-top: 4%;
   }
 
   main .scar .title p {
@@ -356,18 +390,35 @@ main .content .item .h p i{
     width: 95%;
     margin-top: 16px;
     font-size: 20px;
+    margin: 0 auto;
+    margin-top: 16px;
+
   }
   header h6 {
+    margin: 0 auto;
     margin-top: 10px;
     font-size: 14px;
   }
+ 
+  main .scar .title {
+    width: 100%;
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main .content{
+    margin-top: 4%;
+  }
+
 
   main .content .item {
     width: 250px;
-    width: 76%;
-    height: 260px;
+    width: 100%;
+    height: 280px;
     margin-right: 0;
-    margin: 8% auto;
+    margin: 5% auto;
   }
 
 }

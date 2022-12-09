@@ -1,0 +1,59 @@
+header{
+    width: 100%;
+    padding: 4% 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    background-color: #1f1f1f;
+    margin: 0 auto;
+
+    border-bottom-left-radius: 10000%;
+    border-bottom-right-radius: 10000%;
+}
+
+header h1{
+    width: fit-content;
+   color: white;
+   font-size: 54px;
+   width: 50%;
+   text-align: center;
+   font-weight: 600;
+   letter-spacing: 1.5px;
+}
+
+main{
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    header h1{
+       font-size: 48px;
+       width: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    header h1{
+       font-size: 40px;
+       width: 75%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    header{
+        width: 100%;
+        padding: 13% 0%;
+    }
+
+    header h1{
+       font-size: 30px;
+       width: 85%;
+       line-height: 48px;
+    }
+}
