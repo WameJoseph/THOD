@@ -142,7 +142,7 @@ nav{
     padding: 2% 40px;
     background-position: center;
     background-size: cover;
-    background-color: rgba(31, 31, 31, 0.4);
+    background-color: rgba(31, 31, 31, 0.8);
     background-blend-mode: overlay;
 }
 
@@ -178,9 +178,9 @@ nav{
         border-radius: 0;
     }
     .sectiona .head h1{
-        font-size: 48px;
+        font-size: 50px;
         letter-spacing: 1px;
-        font-weight: 800;
+        font-weight: 900;
         text-align: left;
     }    
 
@@ -230,11 +230,11 @@ nav{
 
     
 .sectionb .items .head{
-    display: flex;justify-content: flex-start; align-items: center;
+    display: flex;justify-content: center; align-items: center;
     width: 95%; 
-    border-radius: 13px;
+    border-radius: 10px;
     background-image: url(clothing.jpg);
-    padding: 4% 5%;
+    padding: 3% 0%;
     background-position: center;
     background-size: cover;
     background-color: rgba(31, 31, 31, 0.8);
@@ -242,7 +242,7 @@ nav{
 } 
     .sectionb .items .head h3{
         color: white;
-        font-size: 30px;
+        font-size: 26px;
 
     }
 
@@ -252,17 +252,22 @@ nav{
 
     .sectionb .items .cards .card{
         width: 45%;
-        height: 330px;
+        height: 300px;
         /* border: solid; */
         margin-top: 10%;
         /* margin-right: 3.3%; */
         margin: 5% 2.2% 0% 2.2%;
         /* margin-right: ; */
+        /* border: solid; */
     }
 
     .sectionb .items .cards .card .top{
-        height: 65%;
+        height: 70%;
         width: 100%;
+    }
+
+    .sectionb .items .cards .card .mid {
+         height: 30%;
     }
     
     .sectionb .items .cards .card .mid h3{
@@ -275,6 +280,10 @@ nav{
         font-size: 14px;
         font-weight: 400;
         padding-right: 10px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
     }
     
     

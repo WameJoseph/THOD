@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    padding: 4% 6%;
+    padding: 3% 6%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +15,12 @@ header{
 header h1{
     width: fit-content;
    color: white;
-   font-size: 54px;
+   font-size: 50px;
    width: 50%;
    text-align: center;
    font-weight: 600;
    letter-spacing: 1.5px;
+   line-height:70px;
 }
 
 main{
@@ -48,12 +49,13 @@ main{
 @media screen and (max-width: 650px) {
     header{
         width: 100%;
-        padding: 13% 0%;
+        padding: 14% 0%;
     }
 
     header h1{
-       font-size: 30px;
+       font-size: 32px;
        width: 85%;
-       line-height: 48px;
+       line-height: 46px;
+       letter-spacing: 1px;
     }
 }

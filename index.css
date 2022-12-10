@@ -492,7 +492,7 @@ main .section5{
   padding: 3% 0;
   width: 100%;
   margin: 0 auto;
-  margin-top: 3%;
+  margin-top: 5%;
 
 }
 
@@ -977,6 +977,9 @@ main .section3 .box2 .sp2{order: 2;}
   header .section1 a {
     width: 85%;
   }
+  header .section1 a:hover{
+    width: 85%;
+  }
 
   main .section2 {
     margin-top: 30px;
@@ -1221,4 +1224,16 @@ main .section3 .box2 .sp2{order: 2;}
     letter-spacing: 0.2px;
     margin-top: 5px;
   }
+
+  .nextpg{
+
+    font-size: 20px; 
+    color: white;
+  }
+  
+  .nextpg i{
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  
 }
