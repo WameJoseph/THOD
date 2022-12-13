@@ -1,6 +1,23 @@
+nav{
+    padding: 15px 9.8% 15px 10%;
+    /* background-color: white; */
+    z-index: 2;
+} 
+
+nav .sp1 {
+    margin: 0;
+    margin-left: auto;
+}
+
+nav .connectcc {
+    margin: 0;
+    margin-left: 0;
+}
+  
+
 header{
+    padding: 2% 6%;
     width: 100%;
-    padding: 3% 6%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,54 +25,338 @@ header{
     background-color: #1f1f1f;
     margin: 0 auto;
 
-    border-bottom-left-radius: 10000%;
-    border-bottom-right-radius: 10000%;
+    /* border-bottom-left-radius: 10000%;
+    border-bottom-right-radius: 10000%; */
 }
 
 header h1{
     width: fit-content;
    color: white;
-   font-size: 50px;
-   width: 50%;
+   font-size: 36px;
+   width: 98%;
    text-align: center;
    font-weight: 600;
    letter-spacing: 1.5px;
-   line-height:70px;
 }
 
 main{
-    margin: 0;
+    margin: 0; padding: 0;
     width: 100%;
     height: fit-content;
-    padding: 10%;
+}
+
+main .sectioni{
+    width: 100%;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    height: fit-content;
+    position: relative;
+    padding: 7vh 0;
+}
+
+main .sectioni .gg{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+main .sectioni .gg .sp1{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgba(43, 43, 43, 0.6); */
+    background-image: url(milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+main .sectioni .form{
+    width: 80%;
+    position: relative;
+    height: fit-content;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+main .sectioni .form .h2{
+    width: 94%;
+    text-align: center;
+    background-color: white;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 1.6% 0;
+}
+
+main .sectioni .form .h2 b{
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'poppins', sans-serif;
+}
+
+main .sectioni .form .sp{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex; justify-content: flex-start; align-items: center;
+    overflow: hidden;
+    padding: 0% 0% 0% 0%;
+    /* border: solid; */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 7px rgb(0, 0, 0, 0.15);
+    border-bottom-right-radius: 0;
+}
+
+
+main .sectioni .form .sp   .forms{
+    width: 46%;
+    height: 100%;
+    background-color: white;
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;
+    /* padding: 3% 4%; */
+    padding:  5%;
+    padding-right: 0;
+    /* border: solid 1px ; */
+}
+
+main .sectioni .form .sp   .animation{
+    width: 48%;
+    height: 100%;
+    background-color: white;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* padding: 3%; */
+    /* border: solid; */
+    padding: 0% 5% 5% 5%;
+
+}
+
+
+main .sectioni .form .forms .title{
+    font-size: 38px;
+    font-weight: 900;
+    font-family: 'poppins', sans-serif;
+    color: rgb(0, 211, 0);
+    line-height: 30px;
+    
+}
+
+main .sectioni .form .forms .te2{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    color: #1f1f1f;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+main .sectioni .form .forms form{
+    width: 100%;
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;
+    margin-top: 10px;
+}
+
+main .sectioni .form .forms form input{
+    width: 100%;
+    padding: 10px ;
+    border-radius: 4px;
+    background-color: rgba(75, 75, 75, 0.1);
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    height: 50px;
+}
+
+main .sectioni .form .forms form textarea{
+    width: 100%;
+    padding: 10px ;
+    border-radius: 4px;
+    background-color: rgba(75, 75, 75, 0.1);
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    /* height: 50px; */
+}
+
+main .sectioni .form .forms form button{
+    width: 100%;
+    padding: 10px ;
+    border-radius: 4px;
+    background-color: rgb(0, 211, 0);
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    height: 50px; color: white; font-size: 20px; font-weight: 800; letter-spacing: 1px; transition: 300ms;
+    cursor: pointer;
+}
+
+main .sectioni .form .forms form button:hover{
+    background-color: rgb(0, 211, 0, 0.8);
+}
+
+main .sectioni .form .sp   .animation .img{
+    width: 80%;
+    height: 48%;
+    display: flex; justify-content: center; align-items: center;
+    /* border: solid; */
+}
+
+main .sectioni .form .sp   .animation .img img{
+    width: 60%;
+    height: 100%;
+    display: flex; justify-content: center; align-items: center;
+    /* border: solid; */
+}
+
+main .sectioni .form .sp   .animation .content{
+    width: fit-content;
+    height: fit-content; display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
+    /* padding: 5%; */
+}
+
+main .sectioni .form .sp   .animation .content a{
+    color: #1f1f1fe8;
+    font-size: 22px;
+    margin-top: 40px;
+    white-space: nowrap;
+}
+
+main .sectioni .form .sp   .animation .content a i{
+    color: rgb(0, 211, 0);
+    padding: 10px;
+    border: solid 1.8px;
+    border-radius: 100%;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+main .sectioni .form  .socials{
+    width: 80px;
+    height: 200px;
+    /* background-color: white; */
+    /* background-color: blue; */
+    margin-top: auto;
+    z-index: 1;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    background-color: rgb(5, 255, 5);
+    border-end-end-radius: 30px;
+}
+
+main .sectioni .form  .socials a i{
+    display: flex; justify-content: center; align-items: center;
+    color: white;
+    width: 35px; height: 35px;
+    font-size: 18px;
+    border: solid 2px; border-radius: 50%;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 1100px) {
+
+    nav{
+        padding: 15px 5.8% 15px 6%;
+
+    } 
+
+    main .sectioni .form{
+        width: 88%;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
 
-    header h1{
-       font-size: 48px;
-       width: 75%;
+    header{
+        width: 100%;
+        padding: 4% 6%;
     }
+
 }
 
 @media screen and (max-width: 800px) {
+    nav{
+        padding: 15px 9.8% 15px 10%;
+        justify-content: right;
+    } 
 
-    header h1{
-       font-size: 40px;
-       width: 75%;
+    main .sectioni{
+        width: 100%;
+        padding: 5vh 0;
     }
+
+    main .sectioni .form{
+        width: 80%;
+        display: flex; flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        /* border: solid; */
+    }
+    main .sectioni .form .sp{
+        display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;
+    }
+    main .sectioni .form .sp   .divs{
+        width: 98%;
+        height: 100%;
+        display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+        padding:  5%;
+    }
+
+    main .sectioni .form .sp   .forms{
+        order: 2;
+        margin-top: 20px;
+    }
+
+    main .sectioni .form  .socials{
+        width: 100%;
+        height: 60px;
+        z-index: 1;
+        display: flex; flex-direction: row; align-items: center; justify-content: space-evenly;
+        margin: 0;
+    }
+
+    main .sectioni .form .sp   .animation .content a{
+        font-size: 20px;
+        margin-top: 35px;
+        white-space:normal;
+    }
+    
+
+    main .sectioni .form .forms .title{
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    main .sectioni .form .forms .te2{
+        text-align: center;
+        letter-spacing: 0.3px;
+        margin-top: 15px;
+    }
+    
 }
 
 @media screen and (max-width: 650px) {
-    header{
-        width: 100%;
-        padding: 14% 0%;
+    nav{
+        padding: 15px 8% 15px 10%;
+        justify-content: right;
+        height: 65px;
+    } 
+
+    main .sectioni .form .forms .title{
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 30px;
+        text-align: center;
     }
 
-    header h1{
-       font-size: 32px;
-       width: 85%;
-       line-height: 46px;
-       letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 450px) {
+    main .sectioni .form{
+        width: 96%;
     }
 }
